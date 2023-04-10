@@ -1,0 +1,84 @@
+body{
+    background-image: url(image/the-scenery-g10d82afbe_1920.jpg);
+}
+
+.background_pos{
+    display: flex;
+    justify-content: center;
+}
+
+.header_picture{
+    height: 350px;
+    width: 95%;
+}
+
+.nav1{
+    background-color: #e5b5b1;
+    padding-top: 0.2cm;
+    width: 95%;
+    text-align: center;
+}
+
+.a1{
+    padding: 0px 80px 0px 80px;
+    display: inline;
+    font-size: 25px;
+    font-family: "標楷體";
+    text-decoration: none;
+}
+
+.a1:link{color: #aa6c6e;} 
+.a1:visited{color: #aa6c6e;}
+.a1:hover{color: #818db5;}
+
+.section1{
+    width: 95%;
+    height: 300px;
+    background-color: #f4d6d6;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.picture{
+    width: 40%;
+    height: 290px;
+    float: left;
+}
+
+.mypicture{
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    border: 0.2cm aliceblue double;
+    margin-left: 1.5cm;
+    margin-top: 0.5cm;
+    float: left;
+}
+
+.text .text_pos{
+    display: inline-block;
+    position: relative;
+    top: 0.5cm;
+    left: 50px;
+}
+
+.text{
+    font-family: "標楷體";
+    font-size: 20px;
+}
+
+.aboutme{
+    width: 57%;
+    height: 270px;
+    margin-right: 1cm;
+    margin-top: 0.5cm;
+    background-color: #f5e2e2;
+    float: right;
+    border-radius: 15px;
+}
+
+.title{
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+

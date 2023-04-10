@@ -1,0 +1,153 @@
+.section3{
+    width: 95%;
+    height: 800px;
+    background-color:#eec3d4;
+    border-radius:5%;
+}
+
+.experience1{
+    width: 90%;
+    height: 750px;
+    position: relative;
+    top: 30px;
+}
+
+.experience2{
+    max-width: 100%;
+    width: 95%;
+    margin: 10px auto;
+    padding: 25px 30px 30px 30px;
+}
+
+.experience2 header{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.experience2 nav{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;   
+    
+}
+
+.experience2 nav label{
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    color:#aa6c6e;
+    font-family: "標楷體";
+    font-size: 20px;
+    z-index: 1;
+    transition: all 0.3s ease;
+}
+
+.experience2 nav label .text4{
+    padding-right: 7px;
+}
+
+.experience2 nav .tit1{
+    position: absolute;
+    height: 50px;
+    width: 20%;
+    background-color: #f4d6d6;
+    border-radius: 20px 20px 0px 0px;
+    z-index: 0;
+    transition: all 0.3s ease;
+}
+
+#highschool_activities:checked ~ nav .tit1{
+    left: 0%;
+}
+
+#club_activities:checked ~ nav .tit1{
+    left: 20%;
+}
+
+#progress:checked ~ nav .tit1{
+    left: 40%;
+}
+
+#work:checked ~ nav .tit1{
+    left: 60%;
+}
+
+#other:checked ~ nav .tit1{
+    left: 80%;
+}
+
+#highschool_activities:checked ~ nav label.highschool_activities,
+#club_activities:checked ~ nav label.club_activities,
+#progress:checked ~ nav label.progress,
+#work:checked ~ nav label.work,
+#other:checked ~ nav label.other{
+    color: #356887;
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+.experience_con .content{
+    display: none;
+}
+
+#highschool_activities:checked ~ .experience_con .content-1,
+#club_activities:checked ~ .experience_con .content-2,
+#progress:checked ~ .experience_con .content-3,
+#work:checked ~ .experience_con .content-4,
+#other:checked ~ .experience_con .content-5{
+    display: block;
+}
+
+.experience_con{
+    height: 600px;
+    background-color: #f4d6d6;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.con-1{
+    height: 600px;
+    width: 25%;
+    float: left;
+}
+
+.con-1 img {
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+    position: relative;
+    top: 1.5cm;
+    left: 8%;
+    margin-bottom: 1.5cm;
+}
+
+.text5{
+    margin: 8%;
+    text-align: center;
+}
+
+.con-2{
+    height: 600px;
+    width: 33.3%;
+    float: left;
+}
+
+.con-2 img{
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+    position: relative;
+    top: 1.5cm;
+    left: 15%;
+    margin-bottom: 1.5cm;
+}
+

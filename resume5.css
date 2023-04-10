@@ -1,0 +1,47 @@
+footer{
+    width: 95%;
+    height: 130px;
+    background-color: #f4d6d6;
+    font-family: "標楷體";
+    font-size: 15px;
+    text-align: center;
+}
+
+.contact1{
+    width: 60%;
+    height: 100px;
+    float: left;
+   
+}
+
+.contact1_text{
+    text-align: center;
+    float: right;
+}
+
+.contact3{
+    width: 40px;
+    height: 40px;
+    padding-right: 0.3cm;
+}
+
+.back-to-top{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    z-index: 5;
+    border: 1px solid blue;
+    outline: none;
+    background-color: aqua;
+    color: blueviolet;
+    cursor: pointer;
+    padding: 10px 15px 15px 15px;
+    border-radius: 10px;
+}
+
+.back-to-top:hover {
+
+    background-color: #5cb85c; 
+    color: antiquewhite;
+}
+

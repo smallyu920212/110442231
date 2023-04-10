@@ -1,0 +1,196 @@
+.section2{
+    width: 95%;
+    height: 600px;
+    
+}
+
+.s2_left{
+    width: 60%;
+    height: 600px;
+    float: left;
+}
+
+.s2_right{
+    width:39%;
+    height: 600px;
+    background-color: #f4d6d8;
+    float: right;
+    border-radius: 5%;
+}
+
+.text1{
+    font-size: 30px;
+    font-family: "標楷體";
+    margin-top: 0.2cm;
+    text-align: center;
+    margin-bottom: 0.2cm;
+    color: #4d230d;
+    font-weight: bold;
+}
+
+.solgan{
+    height: 150px;
+    /* background-color: #f4d6d8; */
+    margin-bottom: 0.2cm;
+    background-image: url(image/solgan.png);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.skill2{
+    height: 400px;
+    background-color: #f5e2e2;
+    border-radius: 15px;
+}
+
+.background1{
+    height: 135px;
+}
+
+.picture2{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    float: left;
+    position: relative;
+    left: 5%;
+}
+
+.a2{
+    text-decoration: none;
+}
+
+.a2:link{color: #550088;}
+.a2:visited{color: #550088;}
+.a2:hover{color: #FF8888;}
+
+.text2{
+    font-size: 22px;
+    font-family: "標楷體";
+    position: relative;
+    left: 10%;
+    top: 0.5cm;
+}
+
+.skill1{
+    height: 350px;
+    width: 50%;
+}
+
+.text3{
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #aa6c6e;
+}
+
+.solgan2{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 6%;
+    color: rgb(22, 22, 22);
+}
+
+.loading{
+    width: 100%;
+    height: auto;
+    margin-left: 1cm;
+}
+
+.line-box{
+    padding: 2px;
+    width: 80%;
+    height: 25px;
+    border: 3.5px solid #e5b5b1;
+    border-radius: 20px;
+}
+
+.line{
+    height: 25px;
+    border-radius: 20px;
+    background-color: #e5b5b1;
+    animation: loading 7s forwards cubic-bezier(0,0,0,0) infinite;
+}
+
+.line1{
+    height: 25px;
+    border-radius: 20px;
+    background-color: #e5b5b1;
+    animation: loading1 7s forwards cubic-bezier(0,0,0,0) infinite;
+}
+
+.line2{
+    height: 25px;
+    border-radius: 20px;
+    background-color: #e5b5b1;
+    animation: loading2 7s forwards cubic-bezier(0,0,0,0) infinite;
+}
+
+.line3{
+    height: 25px;
+    border-radius: 20px;
+    background-color: #e5b5b1;
+    animation: loading3 7s forwards cubic-bezier(0,0,0,0) infinite;
+}
+
+.line4{
+    height: 25px;
+    border-radius: 20px;
+    background-color: #e5b5b1;
+    animation: loading4 7s forwards cubic-bezier(0,0,0,0) infinite;
+}
+
+
+@keyframes loading{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 65%;
+    }
+}
+
+@keyframes loading1{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+@keyframes loading2{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+
+@keyframes loading3{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+
+@keyframes loading4{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 55%;
+    }
+}
+
+
+
+
+
+
+
